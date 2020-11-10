@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Pass4early</title>
+</head>
+<body>
+    <!-- top top -->
+     <div class="container">
+       <div class="row"> 
+          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+               <a href="index.html"><img src="assets/logo/Pass4early.png" class="img-fluid mt-2"  /></a>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="row pull-right"> 
+                    <a class="btn custom text-white" href="./pages/myaccount.html"><img src="assets/icons/user.png" /> My Account</a>
+                    <a class="btn custom text-white" href="./pages/shoppingcart.html"><img src="assets/icons/cart.png" /> Cart</a>
+                    <a class="btn custom text-white dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/icons//login.png" /> Log In</a>
+                    <!-- login dropdown -->
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="width: 300px;height: auto; padding: 20px;">
+                       <form action="#" method="post">
+                            <div class="form-group">
+                               <label for="">Email Address</label>
+                               <input type="text" class="form-control" name="email" id="email">
+                            </div>
+                            <div class="form-group">
+                              <label for="">Password</label>
+                              <input type="text" class="form-control" name="password" id="password">
+                            </div>
+                             <label for="Remember">
+                                <input type="checkbox" name="" id="Remember">
+                                <span>Remember me</span>
+                             </label>
+                             <button class="btn loginbtn" type="submit">Login</button>
+                       </form>
+                    </div>
+                   <!-- end -->
+               </div>
+          </div> 
+        </div>
+      </div>
+      <!-- end top bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadowbotton">
+       <div class="container">
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/products.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/megapack.html">Mega Packs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/requestexam.html">Request exam</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/coporate.html">Corporate account</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/faqs.html">FAQ'S</a>
+            </li>
+          </ul>
+        </div>
+          <form class="form-inline my-2 my-lg-0">
+              <div class="inner-addon right-addon">
+                <i style="color: #016F7B;" class="fa fa-search"></i>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              </div>
+         </form>
+        
+       </div>
+      </nav>
+      <!-- end narbar -->
+      <!-- home page -->
+     <div class="container">
+       <div class="row">
+         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+             <div class="jumbotron bgcolor">
+                    <h3 class="h3color">Passing Certification</h3>
+                    <h4 class="h4color">Exams Made Easy</h4>
+                    <p>Everything you need to prepare and quickly pass the<br>
+                     tough certification exams the first </p>
+                    <h4 class="font-weight-bold">With Pass4early you'll experience:</h4>
+                    <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Instant downloads allowing you to study as soon as you complete your purchase</p>
+                    <p><i style="color:#016F7B" class="fa fa-check-circle"></i> High Success Rate supported by our 99.3% pass rate history and money back guarantee should you fail your exam</p>
+                    <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Free first on the market updates available within 2 weeks of any change to the actual exam</p>
+                    <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Latest Sample Question give similar experience as practicing Actual test</p>
+                    <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Our customizable testing engine that simulates a real world exam environment</p>
+                    <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Secure shopping experience - Your information will never be shared with 3rd parties without your permission</p>
+             </div>
+             <div class="jumbotron bgcolor1">
+                   <form action="#" method="post">
+                       <div class="form-group">
+                          <select class="form-control" name="" id="">
+                             <option value="" selected>Select Your Certification Provider</option>
+                          </select>
+                        </div>
+                        <p class="text-center"><button class="btn btn-lg custom " type="submit">Search</button></p>
+                   </form>
+             </div>
+             <h3 class="mt-2 font-weight-bold" style="color:#016F7B;">Top Certifications</h3>
+             <div class="row">
+                 <div class="">
+                     <img src="assets/images/aplus.png" height="200" width="200" class="img-fluid certification" /> 
+                     <p class="text-center font-weight-bold">CompTIA A+</p>
+                 </div>
+                 <div class="">
+                    <img src="assets/images/aws.png" height="200" width="200" class="img-fluid certification" /> 
+                    <p class="text-center font-weight-bold">AWS</p>
+                </div>
+                <div class="">
+                    <img src="assets/images/ccna.png" height="200" width="200" class="img-fluid certification" /> 
+                    <p class="text-center font-weight-bold">CCNA</p>
+                </div>
+                <div class="">
+                    <img src="assets/images/cissp.png" height="200" width="200" class="img-fluid certification" /> 
+                    <p class="text-center font-weight-bold">CISSP</p>
+                </div>
+                <div class="">
+                    <img src="assets/images/network.png" height="200" width="200" class="img-fluid certification" /> 
+                    <p class="text-center font-weight-bold">CompTIA Network+</p>
+                </div>
+                <div class="">
+                    <img src="assets/images/security.png" height="220" width="220" class="img-fluid certification" /> 
+                    <p class="text-center font-weight-bold">CompTIA Security+</p>
+                </div>
+             </div>
+             <div class="row justify-content-end">
+                  <a href="./pages/products.html" class="btn custom mr-5">View All</a>
+             </div>
+             <div class="jumbotron bgcolor">
+                   <h2 class="h2color01">NOW OFFERING UNLIMITED</h2>
+                   <h2 class="h2color01">ACCESS MEGA PACKS</h2>
+                   <p>Ideal for individuals seeking multiple certifications within one vendor, or<br> across several</p>
+                   
+                            <p>Unlimited Access allows you to study for multiple certifications by<br>
+                              downloading Questions & Answers for all of your IT certification<br>
+                              needs!</p>
+                            <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Access to all Questions & Answers for every certification</p>
+                            <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Achieve all the certifications you need in one purchase</p>
+                            <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Flexibility to add to your certifications should new require-<br>
+                               ments arise within your profession</p><br>
+                            <p class="text-center"><a href="#" class="btn custom">Find the right path for you</a></p>
+              </div>
+              <div class="jumbotron bg-white pt-4 pb-3" style="border:2px solid #026F7B;">
+                   <h2 class="h2color01">Top Certification Exams</h2>
+                   <div class="row">
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                          <a class="link" href="#">CompTIA SY0-501</a><br>
+                          <a class="link" href="#">Cisco 200-301</a><br>
+                          <a class="link" href="#">Amazon AWS Certified Solutions Architect </a><br>
+                          <a class="link" href="#">Microsoft AZ-104</a><br>
+                          <a class="link" href="#">Microsoft AZ-900</a><br>
+                          <a class="link" href="#">ISC CISSP</a><br>
+                          <a class="link" href="#">CompTIA 220-1001</a><br>
+                          <a class="link" href="#">ITIL ITILFND V4</a><br>
+                          <a class="link" href="#">PMI PMP</a><br>
+                          <a class="link" href="#">CompTIA CAS-003</a><br>
+                          <a class="link" href="#">Amazon AWS Certified Cloud Practitioner</a><br>
+                          <a class="link" href="#">CompTIA N10-007</a><br>
+                          <a class="link" href="#">Microsoft MS-100</a><br>
+                          <a class="link" href="#">CompTIA 220-1002</a><br>
+                          <a class="link" href="#">Cisco 350-401</a><br>
+                          <a class="link" href="#">Microsoft 70-740</a><br>
+                          <a class="link" href="#">ECCouncil 312-50v10</a><br>
+                          <a class="link" href="#">Microsoft AZ-500</a><br>
+                          <a class="link" href="#">CompTIA CS0-001</a><br>
+                          <a class="link" href="#">Microsoft MD-100</a><br>
+                          <a class="link" href="#">Microsoft MS-500</a><br>
+                          <a class="link" href="#">VMware 2V0-21.19</a><br>
+                          <a class="link" href="#">Microsoft MS-700</a><br>
+                          <a class="link" href="#">Microsoft MS-101</a><br>
+                          <a class="link" href="#">Microsoft MD-101</a><br>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                          <a class="link" href="#" >AZ-204</a><br>
+                          <a class="link" href="#" >Isaca CISM</a><br>
+                          <a class="link" href="#" >Microsoft MS-900</a><br>
+                          <a class="link" href="#" > Microsoft 70-742</a><br>
+                          <a class="link" href="#" > Microsoft 70-741</a><br>
+                          <a class="link" href="#" > Amazon AWS Certified Solutions Architect </a><br>
+                          <a class="link" href="#" >Fortinet NSE4_FGT-6.2</a><br>
+                          <a class="link" href="#" >Google Professional Cloud Architect</a><br>
+                          <a class="link" href="#" >Microsoft AZ-303</a><br>
+                          <a class="link" href="#" >VMware 2V0-01.19</a><br>
+                          <a class="link" href="#" >Microsoft AZ-400</a><br>
+                          <a class="link" href="#" > Citrix 1Y0-204</a><br>
+                          <a class="link" href="#" > Palo Alto Networks PCNSE</a><br>
+                          <a class="link" href="#" >HP HPE0-V14</a><br>
+                          <a class="link" href="#" >Microsoft 70-743</a><br>
+                          <a class="link" href="#" >VMware 2V0-21.19D</a><br>
+                          <a class="link" href="#" >Google Associate Cloud Engineer</a><br>
+                          <a class="link" href="#" > Juniper JN0-103</a><br>
+                          <a class="link" href="#" >CompTIA CV0-002</a><br>
+                          <a class="link" href="#" >CompTIA XK0-004</a><br>
+                          <a class="link" href="#" >Amazon AWS-SysOps</a><br>
+                          <a class="link" href="#" > Palo Alto Networks PCNSA</a><br>
+                          <a class="link" href="#" >Checkpoint 156-215.80</a><br>
+                          <a class="link" href="#" >Isaca CISA</a><br>
+                          <a class="link" href="#" >VMware 2V0-41.19</a><br>
+                      </div>
+                    </div>
+                 </div>
+             <!-- end 1st div -->
+         </div>
+         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12" style="margin-top: 50px;">
+                <div class="jumbotron bg-white pt-3" style="border:2px solid #026F7B;padding-bottom: 65px;margin-bottom: 20px;">
+                       <h5 class="h2color01">IT CERTIFICATIONS</h5>
+                       <div class="row">
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                             <a class="link" href="#">Amazon</a><br>
+                             <a class="link" href="#">Avaya</a><br>
+                             <a class="link" href="#">Checkpoint</a><br>
+                             <a class="link" href="#">Cisco</a><br>
+                             <a class="link" href="#">Citrix</a><br>
+                             <a class="link" href="#">CompTIA</a><br>
+                             <a class="link" href="#">ECCouncil</a><br>
+                             <a class="link" href="#">Fortinet</a><br>
+                             <a class="link" href="#">Google</a><br>
+                             <a class="link" href="#">HP</a><br>
+                           </div>
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <a class="link" href="#">IBM</a><br>
+                            <a class="link" href="#">ISC</a><br>
+                            <a class="link" href="#">Isaca</a><br>
+                            <a class="link" href="#">Juniper</a><br>
+                            <a class="link" href="#">LPI</a><br>
+                            <a class="link" href="#">Microsoft</a><br>
+                            <a class="link" href="#">Palo Alto Networks</a><br>
+                            <a class="link" href="#">Salesforce</a><br>
+                            <a class="link" href="#">Splunk</a><br>
+                            <a class="link" href="#">VMware</a><br>
+                          </div>
+                          <div class="ml-auto">
+                            <a href="#" class="btn custom">View All</a>
+                          </div>
+                       </div>
+                        <hr class="hr">
+                         <h4 class="h2color01">SPECIALIZED</h4>
+                         <h4 class="h2color01">CERTIFICATIONS</h4>
+                          <div>
+                             <a class="link" href="#">Cloud Certifications</a><br>
+                             <a class="link" href="#">Java Certifications</a><br>
+                             <a class="link" href="#">Linux Certifications</a><br>
+                             <a class="link" href="#">Security Certifications</a><br>
+                          </div>
+                          <div class="row justify-content-end" >
+                             <a href="#" class="btn custom">View All</a>
+                          </div>
+                          <hr class="hr">
+                          <h5 class="h2color01">ENGLISH TEST</h5>
+                          <h5 class="h2color01">PREPARATION</h5>
+                          <div>
+                            <a class="link" href="#">IELTS</a><br>
+                            <a class="link" href="#">TOEFL</a><br>
+                          </div>
+                          <div class="row justify-content-end" >
+                            <a href="#" class="btn custom">View All</a>
+                          </div>
+                         <hr class="hr">
+                         <h5 class="h2color01">PROJECT MANAGEMENT</h5>
+                         <div>
+                          <a href="#" class="link">PMI</a><br>
+                          <a href="#" class="link">PRINCE2</a><br>
+                         </div>
+                         <div class="row justify-content-end" >
+                          <a href="#" class="btn custom">View All</a>
+                         </div>
+                        <hr class="hr">
+                        <h5 class="h2color01">QUALITY ASSURANCE</h5>
+                        <h5 class="h2color01">& SOFTWARE TESTING</h5>
+                        <div>
+                           <a href="#" class="link">ASQ</a><br>
+                           <a href="#" class="link">ISTQB</a><br>
+                           <a href="#" class="link">Six Sigma</a><br>
+                        </div>
+                        <div class="row justify-content-end" >
+                          <a href="#" class="btn custom">View All</a>
+                         </div>
+                        <hr class="hr">
+                        <h4 class="h2color01">TEST PREPARATION</h4>
+                        <div>
+                           <a href="#" class="link">College Admission</a><br>
+                           <a href="#" class="link">Financial Tests</a><br>
+                           <a href="#" class="link">Graduate Admission</a><br>
+                           <a href="#" class="link">Health & Fitness Sciences</a><br>
+                           <a href="#" class="link">Medical Tests</a><br>
+                           <a href="#" class="link">Misc Tests</a><br>
+                           <a href="#" class="link">Pharmacy & Nursing Tests</a><br>
+                           <a href="#" class="link">School Admission</a><br>
+                           <a href="#" class="link">Teaching</a><br>
+                        </div>
+                        <div class="row justify-content-end" >
+                          <a href="#" class="btn custom">View All</a>
+                         </div>
+                        <hr class="hr">
+                        <h4 class="h2color01">IT SERVICE</h4>
+                        <h4 class="h2color01">MANAGEMENT</h4>
+                        <div>
+                           <a href="#" class="link">ITIL Expert Level</a><br>
+                           <a href="#" class="link">ITIL Foundation</a><br>
+                           <a href="#" class="link">ITIL Intermediate Level</a><br>
+                           <a href="#" class="link">ITIL Managing Across the Lifecycle</a><br>
+                           <a href="#" class="link">ITIL Master Qualificatio</a><br>
+                        </div>
+                        <div class="row justify-content-end" >
+                          <a href="#" class="btn custom">View All</a>
+                         </div>
+                        <hr class="hr">
+                </div>
+                <div class="jumbotron bg-white p-0" style="border:2px solid #026F7B;">
+                       <h4 class="heading">Latest Reviews</h4>
+                       <div class="pt-4 pl-3 pr-3">
+                         <h4 class="h2color01">70-765 Review</h4>
+                         <p>I scored 85% marks in the 70-765
+                          certification exam. I prepared with
+                          the exam practising software by
+                          Marks4sure. Made it very easy to
+                          take the actual exam. Highly
+                          suggested to all.</p>
+                          <p>Posted by Ashley on 07-Oct-2020</p>
+                       </div>
+                       <div class="pt-4 pl-3 pr-3">
+                        <h4 class="h2color01">70-765 Review</h4>
+                        <p>Excellent pdf files and practise
+                          exam software by Marks4sure for
+                          the certified PSE-PrismaCloud
+                          certification exam. I got 90% marks
+                          in the first attempt. Recommended
+                          to everyone taking the exam.</p>
+                         <p>Posted by Ashley on 07-Oct-2020</p>
+                      </div>
+
+
+                </div>
+         </div>
+       </div>
+     </div>
+     <footer class="pt-3 pb-3 " style="background-color: #F2A433;">
+         <div class="container">
+              <div class="row justify-content-center">
+                  <nav class="navbar navbar-expand-lg">
+                      <ul class="navbar-nav nav-fill">
+                        <li class="nav-item borderright pl-4">
+                          <a style="margin-top: -10px;" class="nav-link text-white" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item borderright pl-4">
+                          <a style="margin-top: -10px;" class="nav-link text-white" href="./pages/megapack.html">Mega Packs</a>
+                        </li>
+                        <li class="nav-item borderright pl-4">
+                          <a style="margin-top: -10px;" class="nav-link text-white" href="./pages/guarantee.html">Guarantee</a>
+                        </li>
+                        <li class="nav-item borderright pl-4">
+                          <a style="margin-top: -10px;" class="nav-link text-white" href="./pages/Guide.html">IT Guides</a>
+                        </li>
+                        <li class="nav-item borderright pl-4">
+                          <a style="margin-top: -10px;" class="nav-link text-white" href="./pages/requestexam.html">Request Exam</a>
+                        </li>
+                        <li class="nav-item borderright pl-4">
+                          <a style="margin-top: -10px;" class="nav-link text-white" href="./pages/contactus.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item pl-4">
+                          <a style="margin-top: -10px;" class="nav-link text-white" href="./pages/about.html">About Us</a>
+                        </li>
+                      </ul>
+                   </nav>
+              </div>
+              <p class="text-center text-white mt-3">© All Rights Reserved 2020 </p> 
+          </div>
+      </footer>
+
+
+
+
+
+    <script src="./assets/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

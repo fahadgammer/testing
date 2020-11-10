@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Products</title>
+</head>
+<body>
+    <!-- top top -->
+    <div class="container">
+      <div class="row"> 
+         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+              <a href="../index.html"><img src="../assets/logo/Pass4early.png" class="img-fluid mt-2"  /></a>
+         </div>
+         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+              <div class="row pull-right"> 
+                   <a class="btn custom text-white" href="./myaccount.html"><img src="../assets/icons/user.png" /> My Account</a>
+                   <a class="btn custom text-white" href="../pages/shoppingcart.html"><img src="../assets/icons/cart.png" /> Cart</a>
+                   <a class="btn custom text-white dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/icons//login.png" /> Log In</a>
+                   <!-- login dropdown -->
+                   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="width: 300px;height: auto; padding: 20px;">
+                      <form action="#" method="post">
+                           <div class="form-group">
+                              <label for="">Email Address</label>
+                              <input type="text" class="form-control" name="email" id="email">
+                           </div>
+                           <div class="form-group">
+                             <label for="">Password</label>
+                             <input type="text" class="form-control" name="password" id="password">
+                           </div>
+                            <label for="Remember">
+                               <input type="checkbox" name="" id="Remember">
+                               <span>Remember me</span>
+                            </label>
+                            <button class="btn loginbtn" type="submit">Login</button>
+                      </form>
+                   </div>
+                  <!-- end -->
+              </div>
+         </div> 
+       </div>
+     </div>
+     <!-- end top bar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light shadowbotton">
+      <div class="container">
+      
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+     
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="../index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link active" href="./products.html">Products</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./megapack.html">Mega Packs</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./requestexam.html">Request exam</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./coporate.html">Corporate account</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./faqs.html">FAQ'S</a>
+           </li>
+         </ul>
+       </div>
+         <form class="form-inline my-2 my-lg-0">
+             <div class="inner-addon right-addon">
+               <i style="color: #016F7B;" class="fa fa-search"></i>
+               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             </div>
+        </form>
+       
+      </div>
+     </nav>
+     <!-- end narbar -->
+       <!-- home page -->
+       <div class="container">
+            <div class="row">
+                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                    <!-- section start -->
+                     <div class="jumbotron bgcolor">
+                        <h3 class="h3color">Passing Certification</h3>
+                        <h4 class="h4color">Exams Made Easy</h4>
+                        <p>Everything you need to prepare and quickly pass the<br>
+                         tough certification exams the first </p>
+                        <h4 class="font-weight-bold">With Pass4early you'll experience:</h4>
+                        <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Instant downloads allowing you to study as soon as you complete your purchase</p>
+                        <p><i style="color:#016F7B" class="fa fa-check-circle"></i> High Success Rate supported by our 99.3% pass rate history and money back guarantee should you fail your exam</p>
+                        <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Free first on the market updates available within 2 weeks of any change to the actual exam</p>
+                        <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Latest Sample Question give similar experience as practicing Actual test</p>
+                        <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Our customizable testing engine that simulates a real world exam environment</p>
+                        <p><i style="color:#016F7B" class="fa fa-check-circle"></i> Secure shopping experience - Your information will never be shared with 3rd parties without your permission</p>
+                    </div>
+                    <!-- section end -->
+                    <div class="jumbotron bgcolor1">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                               <select class="form-control" name="" id="">
+                                  <option value="" selected>Select Your Certification Provider</option>
+                               </select>
+                             </div>
+                             <p class="text-center"><button class="btn btn-lg custom " type="submit">Search</button></p>
+                        </form>
+                  </div>
+                  <!-- section end -->
+
+                 </div>
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                         <!-- section start -->
+                         <div class="jumbotron bg-white p-0" style="border:2px solid #026F7B;margin-top: 50px;">
+                            <h5 class="heading text-center p-3">120 DAYS FREE UPDATE LIMITED TIME SPECIAL OFF</h5>
+                           
+                            <div class="pt-4 pl-3 pr-3">
+                                <p>Buy any 2 Questions and Answers
+                                products to get 20% Off your order
+                                AND receive 120 days of Free
+                                Updates!</p>
+                            </div>
+                            <div class="pt-4 pl-3 pr-3">
+                               <p>Study materials, training and classes,
+                                exam fees can get rather expensive.
+                                Save your money with Pass4Early!</p>
+                            </div>
+                            <img src="../assets/images/book mockup222.png" class="img-fluid" />
+                            <ol class="sizeadj">
+                                <li>Select your Products</li>
+                                <li>Go to your Shopping Cart</li>
+                                <li>Enter the promo code: QA120</li>
+                                <li>Make your payment and download.</li>
+                            </ol>
+                        </div>
+                        <!-- end section -->
+                 </div>
+              </div>
+           </div>
+           <!-- top vendors -->
+          
+           <div class="container">
+            <h3 class="topvendors">Top Vendors:</h3>
+                <!-- first row -->
+               <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                         <p class="text-center"><img src="../assets/vendors/adobe.png" class="img-fluid imgshadow"    /></p>
+                         <a href="../pages/vendors.html" class="textdark"><h5 class="text-center font-weight-bold">Adobe</h5></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                        <p class="text-center"><img src="../assets/vendors/alcatel.png" class="img-fluid imgshadow"   /></p>
+                        <a href="#" class="textdark"><h5 class="text-center font-weight-bold">Alcatel</h5></a>
+                   </div>
+                   <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                    <p class="text-center"><img src="../assets/vendors/apple.png" class="img-fluid imgshadow"    /></p>
+                    <a href="#" class="textdark"><h5 class="text-center font-weight-bold">Apple</h5></a>
+                   </div>
+                   <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                    <p class="text-center"><img src="../assets/vendors/avaya.png" class="img-fluid imgshadow"   /></p>
+                    <a href="#" class="textdark"><h5 class="text-center font-weight-bold">Avaya</h5></a>
+                   </div>
+                   <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                    <p class="text-center"><img src="../assets/vendors/checkpoint.png" class="img-fluid imgshadow"    /></p>
+                    <a href="#" class="textdark"><h5 class="text-center font-weight-bold">Checkpoint</h5></a>
+                   </div>
+                   <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                    <p class="text-center"><img src="../assets/vendors/citrix.png" class="img-fluid imgshadow" /></p>
+                    <a href="#" class="textdark"><h5 class="text-center font-weight-bold">Citrix</h5></a>
+                   </div>
+               </div>
+               <!-- 2nd row -->
+               <div class="row">
+                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                     <p class="text-center"><img src="../assets/vendors/comptia.png" class="img-fluid imgshadow"    /></p>
+                     <a href="#" class="textdark"><h5 class="text-center font-weight-bold">CompTIA</h5></a>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                    <p class="text-center"><img src="../assets/vendors/cwnp.png" class="img-fluid imgshadow"   /></p>
+                    <a href="#" class="textdark"><h5 class="text-center font-weight-bold">CWNP</h5></a>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                    <p class="text-center"><img src="../assets/vendors/eccouncil.png" class="img-fluid imgshadow"   /></p>
+                    <a href="#" class="textdark"><h5 class="text-center font-weight-bold">EC-Council</h5></a>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                    <p class="text-center"><img src="../assets/vendors/emc.png" class="img-fluid imgshadow"   /></p>
+                    <a href="#" class="textdark"><h5 class="text-center font-weight-bold">EMC</h5></a>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                    <p class="text-center"><img src="../assets/vendors/hp.png" class="img-fluid imgshadow"    /></p>
+                    <a href="#" class="textdark"><h4 class="text-center font-weight-bold">HP</h4></a>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                    <p class="text-center"><img src="../assets/vendors/ibm.png" class="img-fluid imgshadow"  /></p>
+                    <a href="#" class="textdark"><h5 class="text-center font-weight-bold">IBM</h5></a>
+                  </div>
+                </div>
+                <!-- 3th row -->
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                       <p class="text-center"><img src="../assets/vendors/isaca.png" class="img-fluid imgshadow"   /></p>
+                       <a href="#" class="textdark"><h5 class="text-center font-weight-bold">ISACA</h5></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                      <p class="text-center"><img src="../assets/vendors/isc.png" class="img-fluid imgshadow"  /></p>
+                      <a href="#" class="textdark"><h5 class="text-center font-weight-bold">ISC</h5></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                      <p class="text-center"><img src="../assets/vendors/istqb.png" class="img-fluid imgshadow" /></p>
+                      <a href="#" class="textdark"><h5 class="text-center font-weight-bold">ISTQB</h5></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                      <p class="text-center"><img src="../assets/vendors/itil.png" class="img-fluid imgshadow" /></p>
+                      <a href="#" class="textdark"><h5 class="text-center font-weight-bold">ITIL</h5></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                      <p class="text-center"><img src="../assets/vendors/juniper.png" class="img-fluid imgshadow" /></p>
+                      <a href="#" class="textdark"><h5 class="text-center font-weight-bold">Juniper</h5></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                      <p class="text-center"><img src="../assets/vendors/lpi.png" class="img-fluid imgshadow"    /></p>
+                      <a href="#" class="textdark"><h5 class="text-center font-weight-bold">LPI</h5></a>
+                    </div>
+                  </div>
+                  <!-- 4th row -->
+                  <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                       <p class="text-center"><img src="../assets/vendors/microsoft.png" class="img-fluid imgshadow"    /></p>
+                       <a href="#" class="textdark"><h5 class="text-center font-weight-bold">Microsoft</h5></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                      <p class="text-center"><img src="../assets/vendors/pmi.png" class="img-fluid imgshadow"    /></p>
+                      <a href="#" class="textdark"><h5 class="text-center font-weight-bold">PMI</h5></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                      <p class="text-center"><img src="../assets/vendors/prince2.png" class="img-fluid imgshadow" /></p>
+                      <a href="#" class="textdark"><h4 class="text-center font-weight-bold">PRINCE2</h4></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                      <p class="text-center"><img src="../assets/vendors/symantec.png" class="img-fluid imgshadow" /></p>
+                      <a href="#" class="textdark"><h4 class="text-center font-weight-bold">SAP</h4></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                      <p class="text-center"><img src="../assets/vendors/the open group.png" class="img-fluid imgshadow"   /></p>
+                      <a href="#" class="textdark"><h5 class="text-center font-weight-bold">The Open<br>Group</h5></a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 mb-4">
+                      <p class="text-center"><img src="../assets/vendors/vmware.png" class="img-fluid imgshadow" /></p>
+                      <a href="#" class="textdark"><h5 class="text-center font-weight-bold">VMware</h5></a>
+                    </div>
+                  </div>
+            </div>
+            <!-- end top vendors -->
+            <div class="container">
+                    <h4 class="topvendors">Complete Vendor List:</h4>
+                    <!-- navbar -->
+                      <div class="row">
+                        <a href="#A" class="font-weight-bold linkadj activetab">All</a>
+                     
+                      
+                        <a href="" class="font-weight-bold linkadj">9</a>
+                     
+                     
+                        <a href="#A" class=" font-weight-bold linkadj">A</a>
+                     
+                      
+                        <a href="#B" class=" font-weight-bold linkadj">B</a>
+                      
+                     
+                        <a href="#C" class=" font-weight-bold linkadj">C</a>
+                     
+                      
+                        <a href="" class="font-weight-bold linkadj">D</a>
+                     
+                    
+                        <a href="" class="font-weight-bold linkadj">E</a>
+                      
+                      
+                        <a href="" class="font-weight-bold linkadj">F</a>
+                      
+                      
+                        <a href="" class="font-weight-bold linkadj">G</a>
+                       
+                      
+                        <a href="" class="font-weight-bold linkadj">H</a>
+                     
+                     
+                        <a href="" class="font-weight-bold linkadj">I</a>
+                      
+                      
+                        <a href="" class="font-weight-bold linkadj">J</a>
+                     
+                      
+                        <a href="" class="font-weight-bold linkadj">K</a>
+                       
+                      
+                        <a href="" class="font-weight-bold linkadj">L</a>
+                       
+                       
+                        <a href="" class="font-weight-bold linkadj">M</a>
+                       
+                      
+                        <a href="" class="font-weight-bold linkadj">N</a>
+                      
+                      
+                        <a href="" class="font-weight-bold linkadj">O</a>
+                      
+                      
+                        <a href="" class="font-weight-bold linkadj">P</a>
+                      
+                      
+                        <a href="" class="font-weight-bold linkadj">Q</a>
+                      
+                     
+                        <a href="" class="font-weight-bold linkadj">R</a>
+                      
+                       
+                        <a href="" class="font-weight-bold linkadj">S</a>
+                      
+                      
+                        <a href="" class="font-weight-bold linkadj">T</a>
+                      
+                      
+                        <a href="" class="font-weight-bold linkadj">W</a>
+                      
+                       
+                        <a href="" class="font-weight-bold linkadj">X</a>
+                      
+                      
+                        <a href="" class="font-weight-bold linkadj">Y</a>
+                      
+                      
+                        <a href="" class="font-weight-bold linkadj">Z</a>
+                    </div>
+            </div>
+            
+            <div class="container mt-5">
+                <div id="A">
+                   <a  class="font-weight-bold linkadj">A</a>
+                   <hr class="hr2">
+                </div>
+                <!-- a -->
+                <div class="row">
+                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <a href="../pages/vendors.html" class="textdark"><h5 class="font-weight-bold heading01">ABA</h5></a>
+                           <a href="../pages/itemdetail.html" class="textdark">CRCM</a><br>
+                           <a href="#" class="textdark">CTFA</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">ACAMS</h5></a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">ACFE</h5></a>
+                           <a href="#" class="textdark">CFE</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">ACI</h5></a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">ACSM</h5></a>
+                           <a href="#" class="textdark">ACSM Certified Personal Trainer</a><br>
+                           <a href="#" class="textdark">ACSM Registered Clinical Exercise Physiologist</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">ACE: Adobe Audience Manager Architect</h5></a>
+                           <a href="#" class="textdark">ACE: Adobe Campaign Business Practitioner</a><br>
+                           <a href="#" class="textdark">ACE: Adobe Campaign Standard Developer</a><br>
+                           <a href="#" class="textdark">ACE: AEM 6 Developer</a><br>
+                           <a href="#" class="textdark">ACE: AEM Forms Developer</a><br>
+                           <a href="#" class="textdark">ACE: Analytics Business Practitioner</a><br>
+                           <a href="#" class="textdark">ACE: Campain Developer</a><br>
+                           <a href="#" class="textdark">ACE: Experience Manager Assets Developer</a><br>
+                           <a href="#" class="textdark">ACE: Experience Manager Dev/Ops Engineer</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">AHIMA</h5></a>
+                           <a href="#" class="textdark">RHIA</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">AHIP</h5></a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">AHLEI</h5></a>
+                           <a href="#" class="textdark">Certified Hotel Administrator</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">AICPA</h5></a>
+                           <a href="#" class="textdark">CPA Auditing and Attestation</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">AIWMI</h5></a>
+                           <a href="#" class="textdark">CCRA</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Alcatel-Lucent</h5></a>
+                           <a href="#" class="textdark">3RP</a><br>
+                           <a href="#" class="textdark">MRP</a><br>
+                           <a href="#" class="textdark">NRS II</a><br>
+                           <a href="#" class="textdark">SRA</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Alfresco</h5></a>
+                           <a href="#" class="textdark">Alfresco Certified Engineer</a><br>
+                           <a href="#" class="textdark">Alfresco Process Services Certified Administrator</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Alibaba</h5>
+                           <a href="#" class="textdark">ACA-Cloud1</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">AMA</h5></a>
+                           <a href="#" class="textdark">Professional Certified Marketer</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Avaya</h5></a>
+                           <a href="#" class="textdark">ACIS-6005</a><br>
+                           <a href="#" class="textdark">ACIS-6202</a><br>
+                           <a href="#" class="textdark">ACIS-7120</a><br>
+                           <a href="#" class="textdark">ACIS-7130</a><br>
+                           <a href="#" class="textdark">ACIS-7140</a><br>
+                           <a href="#" class="textdark">ACIS-7391</a><br>
+                           <a href="#" class="textdark">ACIS-7392</a><br>
+                           <a href="#" class="textdark">ACIS-7495</a><br>
+                           <a href="#" class="textdark">ACIS-7591</a><br>
+                           <a href="#" class="textdark">ACIS-7593</a><br>
+                           <a href="#" class="textdark">ACIS-7594</a><br>
+                           <a href="#" class="textdark">ACIS-7750</a><br>
+                           <a href="#" class="textdark">ACSS</a><br>
+                           <a href="#" class="textdark">ACSS - Avaya IP Office Platform</a><br>
+                           <a href="#" class="textdark">ACSS-3000</a><br>
+                           <a href="#" class="textdark">ACSS-3103</a><br>
+                           <a href="#" class="textdark">ACSS-3105</a><br>
+                           <a href="#" class="textdark">ACSS-3107</a><br>
+                           <a href="#" class="textdark">ACSS-3203</a><br>
+                           <a href="#" class="textdark">ACSS-3204</a><br>
+                           <a href="#" class="textdark">ACSS-3205</a><br>
+                           <a href="#" class="textdark">ACSS-3300</a><br>
+                           <a href="#" class="textdark">ACSS-3304</a><br>
+                           <a href="#" class="textdark">ACSS-3305</a><br>
+                           <a href="#" class="textdark">ACSS-72200</a><br>
+                           <a href="#" class="textdark">ACSS-7220X</a><br>
+                           <a href="#" class="textdark">ACSS-7230X</a><br>
+                           <a href="#" class="textdark">ACSS-7240</a><br>
+                           <a href="#" class="textdark">ACSS-7491</a><br>
+                           <a href="#" class="textdark">ACSS-7492</a><br>
+                           <a href="#" class="textdark">ACSS-7497</a><br>
+                           <a href="#" class="textdark">ACSS-7498</a><br>
+                           <a href="#" class="textdark">ACSS-7691</a><br>
+                           <a href="#" class="textdark">ACSS-7693</a><br>
+                           <a href="#" class="textdark">ACSS-7694</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Axis Communications</h5></a>
+                           <a href="#" class="textdark">Axis Certified Professional</a><br>
+                      </div>
+                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Amazon</h5></a>
+                           <a href="#" class="textdark">AWS Certified Advanced Networking - Specialty</a><br>
+                           <a href="#" class="textdark">AWS Certified Alexa Skill Builder - Specialty</a><br>
+                           <a href="#" class="textdark">AWS Certified Cloud Practitioner</a><br>
+                           <a href="#" class="textdark">AWS Certified Data Analytics - Specialty</a><br>
+                           <a href="#" class="textdark">AWS Certified Database - Specialty</a><br>
+                           <a href="#" class="textdark">AWS Certified Developer - Associate</a><br>
+                           <a href="#" class="textdark">AWS Certified Machine Learning - Specialty</a><br>
+                           <a href="#" class="textdark">AWS Certified Security - Specialty</a><br>
+                           <a href="#" class="textdark"> AWS Certified Solutions Architect - Associate</a><br>
+                           <a href="#" class="textdark">AWS Certified Solutions Architect - Professional</a><br>
+                           <a href="#" class="textdark">AWS Certified SysOps Administrator - Associate</a><br>
+                           <a href="#" class="textdark">AWS DevOps Engineer Professional</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01"> AndroidATC</h5></a>
+                           <a href="#" class="textdark">Android Certified Application Developer</a><br>
+                           <a href="#" class="textdark">Android Certified Application Engineer</a><br>
+                           <a href="#" class="textdark">Android Certified Trainer</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">APBM</h5></a>
+                           <a href="#" class="textdark">Certified Business Manager</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">API</h5></a>
+                           <a href="#" class="textdark">Corrosion and Materials</a><br>
+                           <a href="#" class="textdark">Risk Based Inspection</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">APICS</h5></a>
+                           <a href="#" class="textdark">CLTD</a><br>
+                           <a href="#" class="textdark">CPIM-BSP</a><br>
+                           <a href="#" class="textdark">CSCP</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Apple</h5></a>
+                           <a href="#" class="textdark">ACMT 2015</a><br>
+                           <a href="#" class="textdark">ACMT 2016</a><br>
+                           <a href="#" class="textdark">ACMT 2019</a><br>
+                           <a href="#" class="textdark">ACTC</a><br>
+                           <a href="#" class="textdark">Apple Certified Technical Coordinator (ACTC) 10.10</a><br>
+                           <a href="#" class="textdark">Mac OS X</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Arista</h5></a>
+                           <a href="#" class="textdark">Arista Certified Engineering Associate</a><br>
+                           <a href="#" class="textdark">Arista Linux Essentials</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Aruba</h5>
+                           <a href="#" class="textdark">ACCP</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">ASIS</h5></a>
+                           <a href="#" class="textdark">ASIS-CPP</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">ASQ</h5></a>
+                           <a href="#" class="textdark">CQA</a><br>
+                           <a href="#" class="textdark">CQE</a><br>
+                           <a href="#" class="textdark">CSSBB</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Atlassian</h5></a>
+                           <a href="#" class="textdark">Jira Administrator</a><br>
+                           <a href="#" class="textdark">Jira Project Administrator</a><br>
+                           <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Autodesk</h5>
+                           <a href="#" class="textdark">Autodesk</a><br>
+
+
+
+                     </div>
+                </div>
+                <div id="B" class="mt-5">
+                    <a  class="font-weight-bold linkadj">B</a>
+                    <hr class="hr2">
+                 </div>
+                <!-- b -->
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                          <a href="#" class="textdark"><h5 class="font-weight-bold heading01">BACB</h5></a>
+                          <a href="#" class="textdark">BCaBA</a><br>
+                          <a href="#" class="textdark">BCBA</a><br>
+                          <a href="#" class="textdark"><h5 class="font-weight-bold heading01">BICSI</h5></a>
+                          <a href="#" class="textdark">RCDD</a><br>
+                          <a href="#" class="textdark"><h5 class="font-weight-bold heading01">BlackBerry</h5></a>
+                          <a href="#" class="textdark">BlackBerry 10 Certified Helpdesk Specialist</a><br>
+                          <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Blockchain</h5></a>
+                          <a href="#" class="textdark">Certified Blockchain Business Foundations</a><br>
+                          <a href="#" class="textdark">Certified Blockchain Developer - Ethereum</a><br>
+                          <a href="#" class="textdark">Certified Blockchain Developer - Hyperledger</a><br>
+                          <a href="#" class="textdark">Certified Blockchain Solution Architect</a><br>
+                     </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                       <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Blue Coat</h5></a>
+                          <a href="#" class="textdark">BCCPA</a><br>
+                          <a href="#" class="textdark">BCCPP</a><br>
+                          <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Blue Prism</h5></a>
+                          <a href="#" class="textdark">Blue Prism Technical Architect</a><br>
+                          <a href="#" class="textdark">Certified Blue Prism Professional Developer</a><br>
+                          <a href="#" class="textdark">Installing and Configuring a Blue Prism (Version 6.0) Environment</a><br>
+                          <a href="#" class="textdark"><h5 class="font-weight-bold heading01">Brocade</h5></a>
+                    </div>
+               </div>
+               <div id="C" class="mt-5">
+                <a  class="font-weight-bold linkadj">C</a>
+                <hr class="hr2">
+             </div>
+               <!-- c -->
+               <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                      <a href="#" class="textdark"><h5 class="font-weight-bold heading01">CA Technologies</h5></a>
+                      <a href="#" class="textdark">Certified CA Identity Manager Professional</a><br>
+                      <a href="#" class="textdark">CFRE</a><br>
+                     
+                      <a href="#" class="textdark">Certified Fundraising Executive Examination</a><br>
+                    
+                      <a href="#" class="textdark">Checkpoint</a><br>
+                      <a href="#" class="textdark">CCSA R80</a><br>
+                     
+                      <a href="#" class="textdark">CCSE R80</a><br>
+                      <a href="#" class="textdark">CCSM R80</a><br>
+                      <a href="#" class="textdark">SandBlast Administrator</a><br>
+                      <a href="#" class="textdark">Secure Web Gateway</a><br>
+                      <a href="#" class="textdark">Threat Prevention</a><br>
+                      <a href="#" class="textdark">CIMA</a><br>
+                      <a href="#" class="textdark">Cisco</a><br>
+                      <a href="#" class="textdark">CCDA</a><br>
+                      
+                      <a href="#" class="textdark">CCDE</a><br>
+                     
+                      <a href="#" class="textdark">CCENT</a><br>
+                     
+                      <a href="#" class="textdark">CCIE Collaboration</a><br>
+                     
+                      <a href="#" class="textdark">CCIE Data Center</a><br>
+                    
+                      <a href="#" class="textdark">CCIE Enterprise</a><br>
+                      <a href="#" class="textdark">CCIE Enterprise Wireless</a><br>
+                      <a href="#" class="textdark">CCIE Routing and Switching</a><br>
+                      <a href="#" class="textdark">CCIE Security</a><br>
+                     
+                      <a href="#" class="textdark">CCIE Service Provider</a><br>
+                      <a href="#" class="textdark">CCNA</a><br>
+                     
+                      <a href="#" class="textdark">CCNA Collaboration</a><br>
+                     
+                      <a href="#" class="textdark">CCNA Cyber Ops</a><br>
+                      
+                      <a href="#" class="textdark">CCNA Data Center</a><br>
+                      <a href="#" class="textdark">CCNA Routing and Switching</a><br>
+                      <a href="#" class="textdark">CCNA Security</a><br>
+                      <a href="#" class="textdark">CCNA Wireless</a><br>
+                      <a href="#" class="textdark">CCNP Collaboration</a><br>
+                      <a href="#" class="textdark">CCNP Data Center</a><br>
+                      <a href="#" class="textdark">CCNP Enterprise</a><br>
+                      <a href="#" class="textdark">CCNP Routing and Switching</a><br>
+                      <a href="#" class="textdark">CCNP Security</a><br>
+                      <a href="#" class="textdark">CCNP Service Provider</a><br>
+                      <a href="#" class="textdark">CCT Data Center</a><br>
+                      <a href="#" class="textdark">CCT Routing and Switching</a><br>
+                      <a href="#" class="textdark">Cisco and NetApp FlexPod Design Specialist</a><br>
+                      <a href="#" class="textdark">Cisco and NetApp FlexPod Implementation and Administration Specialist</a><br>
+                      <a href="#" class="textdark">Cisco Business Architecture Analyst</a><br>
+                      <a href="#" class="textdark">Cisco Business Architecture Practitioner</a><br>
+                      <a href="#" class="textdark">Cisco Business Architecture Specialist</a><br>
+                      <a href="#" class="textdark">Cisco Customer Success Manager</a><br>
+                      <a href="#" class="textdark">Cisco Industrial Networking Specialist</a><br>
+                      <a href="#" class="textdark">Cisco IOS XR Specialist</a><br>
+                      <a href="#" class="textdark">Cisco Renewals Manager</a><br>
+                      <a href="#" class="textdark">Cisco Security Architecture for System Engineers</a><br>
+                      <a href="#" class="textdark">Cisco Service Provider Mobility CDMA to LTE Specialist</a><br>
+                      <a href="#" class="textdark">Cisco Service Provider Mobility UMTS to LTE Specialist</a><br>
+                      <a href="#" class="textdark">Cisco TelePresence Solutions Specialist</a><br>
+                      <a href="#" class="textdark">Cisco Unified Contact Center Enterprise Specialist</a><br>
+                      <a href="#" class="textdark">CyberOps Associate</a><br>
+                      <a href="#" class="textdark">DevNet Associate</a><br>
+                      <a href="#" class="textdark">DevNet Professional</a><br>
+                      <a href="#" class="textdark">Citrix</a><br>
+                      <a href="#" class="textdark">CCA-N</a><br>
+                      <a href="#" class="textdark">CCA-V</a><br>
+                      <a href="#" class="textdark">CCE-N</a><br>
+                      <a href="#" class="textdark">CCE-V</a><br>
+                      <a href="#" class="textdark">CCP-M</a><br>
+                      <a href="#" class="textdark">CCP-N</a><br>
+                      <a href="#" class="textdark">CCP-V</a><br>
+                 </div>
+             </div>
+             <!-- end c -->
+            </div>
+            <footer class="pt-3 pb-3 " style="background-color: #F2A433;">
+              <div class="container">
+                   <div class="row justify-content-center">
+                       <nav class="navbar navbar-expand-lg">
+                           <ul class="navbar-nav nav-fill">
+                             <li class="nav-item borderright pl-4">
+                               <a style="margin-top: -10px;" class="nav-link text-white" href="../index.html">Home </a>
+                             </li>
+                             <li class="nav-item borderright pl-4">
+                               <a style="margin-top: -10px;" class="nav-link text-white" href="./megapack.html">Mega Packs</a>
+                             </li>
+                             <li class="nav-item borderright pl-4">
+                               <a style="margin-top: -10px;" class="nav-link text-white" href="./guarantee.html">Guarantee</a>
+                             </li>
+                             <li class="nav-item borderright pl-4">
+                               <a style="margin-top: -10px;" class="nav-link text-white" href="./Guide.html">IT Guides</a>
+                             </li>
+                             <li class="nav-item borderright pl-4">
+                               <a style="margin-top: -10px;" class="nav-link text-white" href="./requestexam.html">Request Exam</a>
+                             </li>
+                             <li class="nav-item borderright pl-4">
+                               <a style="margin-top: -10px;" class="nav-link text-white" href="./contactus.html">Contact Us</a>
+                             </li>
+                             <li class="nav-item pl-4">
+                               <a style="margin-top: -10px;" class="nav-link text-white" href="./about.html">About Us</a>
+                             </li>
+                           </ul>
+                        </nav>
+                   </div>
+                   <p class="text-center text-white mt-3">© All Rights Reserved 2020 </p> 
+               </div>
+           </footer>
+
+
+
+    <script src="../assets/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

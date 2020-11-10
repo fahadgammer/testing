@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Request Exam</title>
+</head>
+<body>
+    <!-- top top -->
+    <div class="container">
+      <div class="row"> 
+         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+              <a href="../index.html"><img src="../assets/logo/Pass4early.png" class="img-fluid mt-2"  /></a>
+         </div>
+         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+              <div class="row pull-right"> 
+                   <a class="btn custom text-white" href="./myaccount.html"><img src="../assets/icons/user.png" /> My Account</a>
+                   <a class="btn custom text-white" href="../pages/shoppingcart.html"><img src="../assets/icons/cart.png" /> Cart</a>
+                   <a class="btn custom text-white dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/icons//login.png" /> Log In</a>
+                   <!-- login dropdown -->
+                   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="width: 300px;height: auto; padding: 20px;">
+                      <form action="#" method="post">
+                           <div class="form-group">
+                              <label for="">Email Address</label>
+                              <input type="text" class="form-control" name="email" id="email">
+                           </div>
+                           <div class="form-group">
+                             <label for="">Password</label>
+                             <input type="text" class="form-control" name="password" id="password">
+                           </div>
+                            <label for="Remember">
+                               <input type="checkbox" name="" id="Remember">
+                               <span>Remember me</span>
+                            </label>
+                            <button class="btn loginbtn" type="submit">Login</button>
+                      </form>
+                   </div>
+                  <!-- end -->
+              </div>
+         </div> 
+       </div>
+     </div>
+     <!-- end top bar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light shadowbotton">
+      <div class="container">
+      
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+     
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="../index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="./products.html">Products</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./megapack.html">Mega Packs</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link active" href="./requestexam.html">Request exam</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./coporate.html">Corporate account</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./faqs.html">FAQ'S</a>
+           </li>
+         </ul>
+       </div>
+         <form class="form-inline my-2 my-lg-0">
+             <div class="inner-addon right-addon">
+               <i style="color: #016F7B;" class="fa fa-search"></i>
+               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             </div>
+        </form>
+       
+      </div>
+     </nav>
+     <!-- end narbar -->
+       <div class="container">
+           <div class="row">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                    <!-- 1 -->
+                    <div class="jumbotron bgcolor">
+                        <h3 class="h3color">Didn't Find Your Exam On</h3>
+                        <h3 class="h4color">Pass4Early?</h3>
+                        <h4 class="font-weight-bold">Option 1: Request an Exam </h4>
+                        <p class="">Request your exam here and Pass4Early will get you notified when the exam gets<br>released at the site.</p>
+                        <p>Please provide code of the exam you are interested in and your email address so<br>we can inform you when requested exam will become available. Thanks!</p>
+                         <p>
+                              <form class="form-inline" action="" method="post">
+                                 <input style="border: 2px solid #016F7B;" class="mr-2 form-control" id="examcode" type="text" name="examcode" placeholder="Exam code" required>
+                                 <input style="border: 2px solid #016F7B;" class="mr-2 form-control" id="examcode" type="text" name="email" placeholder="Your Email" required>
+                                 <button style="margin-top: -2px;" type="submit" class="btn custom">Request Exam</button>
+                               </form>
+                         </p>
+                         <h4 class="font-weight-bold">Option 2: Pre-Order an Exam</h4>
+                         <p>You Can Pre-Order ANY Exam & Pass4Early will arrange it within 4 weeks.</p>
+                         <h5 class="font-weight-bold">How Does Pre-Order Work?</h5>
+                         <ol>
+                             <li>Enter the exam you want to pre-order in the box below.</li>
+                             <li>You make the payment for the exam.</li>
+                             <li>We will use our resources and connections to arrange Real Exam Questions within<br>
+                                 4 weeks especially for you.</li>
+                             <li>The Questions & Answers will be put into our Real Exam Simulation Testing Engine<br>
+                                to ensure that you get real exam experience.</li>
+                             <li>You will be notified by our Team that your exam is available for download in your<br>
+                                member area.</li>
+                             <li> You download the exam and Pass Easily!</li>
+                         </ol>
+                         <h4 class="font-weight-bold">Why Pre-Order From Pass4Early?</h4>
+                         <ol>
+                             <li>Pass4Early is the ONLY Company in the world providing this service to arrange real<br>
+                                exam questions for you quickly even for the products which are not available for<br>
+                                sale.</li>
+                            <li>Pass4Early has made this customized service on the increased and constant<br>
+                                demand from customers requesting their exams to be made available quickly.</li>
+                            <li> World's leading IT exam Preparation Company with 273812+ Customers and Over<br>
+                                15 Years Of Experience.</li>
+                            <li>Average 99.3% FIRST TIME Pass Rate with 100% Money Back Guarantee.</li>
+                            <li>90 Day Free Updates Available Free of Cost.</li>
+                            <li>In the unlikely event if we can't make this exam available to you then you will issue
+                                a full refund! So there is no risk.</li>
+                         </ol>
+                         <h4 class="font-weight-bold">READY TO PRE-ORDER YOUR EXAM?</h4>
+                         <p>Proceed to Next STEP and Make the Payment.</p>
+                         <h4>Enter The Exam Code Which You Want To Pre Order</h4>
+                         <p>
+                            <form class="form-inline" action="" method="post">
+                               <input class="mr-2 form-control" id="examcode" type="text" name="examcode" placeholder="Exam code" style="border: 2px solid #016F7B;" required>
+                               <h4 style="color: #016F7B;" class="font-weight-bold">$599.00</h4>
+                               <button style="margin-top: -2px;" type="submit" class="btn custom ml-3">Request Exam</button>
+                             </form>
+                       </p>
+
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                          <!-- 1 -->
+                          <div class="jumbotron bgcolor pt-4">
+                            <div class="row">
+                               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                   <img src="../assets/images/gurantee.png" class="img-fluid" />
+                               </div>
+                               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                     <div class="box">
+                                           <h2 class="font-weight-bold pt-2">99.3%</h2>
+                                           <p style="margin-top: -10px;">Pass Rate</p>
+                                     </div>
+                               </div>
+                            </div>
+                            <h3 class="font-weight-bold">Money Back</h3>
+                            <h3 style="margin-top: -5px;" class="font-weight-bold">Guarantee</h3>
+                            <p>Pass4Early has a remarkable
+                                CompTIA Candidate Success
+                                record. We're confident of our
+                                products and provide a no
+                                hassle money back guarantee.
+                                That's how confident we are!</p>
+                         </div>
+               
+                         <!-- 2 -->
+                         <div class="jumbotron bg-white p-0" style="border:2px solid #026F7B;margin-top: 50px;">
+                            <h5 class="heading">Secure Shopping Experience</h5>
+                            <p class="text-center"><img src="../assets/images/cards.png" class="img-fluid" /></p>
+                            <div class="pt-4 pl-3 pr-3">
+                              <p>Your purchase with Pass4Early is
+                                safe and fast. Your products will be
+                                available for immediate download
+                                after your payment has been
+                                received.</p>
+                               <p>The Pass4Early website is protected
+                                by 256-bit SSL from McAfee, the
+                                leader in online security.</p>
+                                <p class="text-center"><img src="../assets/images/secure.png" class="img-fluid" /></p>
+                            </div>
+                           </div>
+                           <!-- end section -->
+                           <h4 class="text-center font-weight-bold h4color">Need help assistance?</h4>
+                           <h5 class="text-center font-weight-bold h4color">Contact Us!</h5>
+                           <p class="text-center"><a href="tel:your number" class="btn btn-lg custom col-12" type="submit">Customer Support</a></p>
+
+                </div>
+            </div>
+
+       </div>
+
+       <footer class="pt-3 pb-3 " style="background-color: #F2A433;">
+        <div class="container">
+             <div class="row justify-content-center">
+                 <nav class="navbar navbar-expand-lg">
+                     <ul class="navbar-nav nav-fill">
+                       <li class="nav-item borderright pl-4">
+                         <a style="margin-top: -10px;" class="nav-link text-white" href="../index.html">Home </a>
+                       </li>
+                       <li class="nav-item borderright pl-4">
+                         <a style="margin-top: -10px;" class="nav-link text-white" href="./megapack.html">Mega Packs</a>
+                       </li>
+                       <li class="nav-item borderright pl-4">
+                         <a style="margin-top: -10px;" class="nav-link text-white" href="./guarantee.html">Guarantee</a>
+                       </li>
+                       <li class="nav-item borderright pl-4">
+                         <a style="margin-top: -10px;" class="nav-link text-white" href="./Guide.html">IT Guides</a>
+                       </li>
+                       <li class="nav-item borderright pl-4">
+                         <a style="margin-top: -10px;" class="nav-link text-white" href="./requestexam.html">Request Exam</a>
+                       </li>
+                       <li class="nav-item borderright pl-4">
+                         <a style="margin-top: -10px;" class="nav-link text-white" href="./contactus.html">Contact Us</a>
+                       </li>
+                       <li class="nav-item pl-4">
+                         <a style="margin-top: -10px;" class="nav-link text-white" href="./about.html">About Us</a>
+                       </li>
+                     </ul>
+                  </nav>
+             </div>
+             <p class="text-center text-white mt-3">© All Rights Reserved 2020 </p> 
+         </div>
+     </footer>
+     <script src="assets/js/index.js"></script>
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
